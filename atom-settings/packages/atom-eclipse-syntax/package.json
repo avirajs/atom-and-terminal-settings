@@ -1,0 +1,63 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-118620-26758-1kk8j62.9jicin3ik9/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-118620-26758-1kk8j62.9jicin3ik9/package.tgz",
+        "spec": "/tmp/d-118620-26758-1kk8j62.9jicin3ik9/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-118620-26758-m3cyvh.41kr6yldi"
+    ]
+  ],
+  "_from": "../d-118620-26758-1kk8j62.9jicin3ik9/package.tgz",
+  "_id": "atom-eclipse-syntax@0.0.6",
+  "_inCache": true,
+  "_location": "/atom-eclipse-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/d-118620-26758-1kk8j62.9jicin3ik9/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/d-118620-26758-1kk8j62.9jicin3ik9/package.tgz",
+    "spec": "/tmp/d-118620-26758-1kk8j62.9jicin3ik9/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-118620-26758-1kk8j62.9jicin3ik9/package.tgz",
+  "_shasum": "b91b97f3a6c7b2e285785c2d856b3e141fde90cf",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/d-118620-26758-1kk8j62.9jicin3ik9/package.tgz",
+  "_where": "/tmp/apm-install-dir-118620-26758-m3cyvh.41kr6yldi",
+  "bugs": {
+    "url": "https://github.com/Niishi/atom-eclipse-syntax/issues"
+  },
+  "dependencies": {},
+  "description": "like IDE Eclipse",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/Niishi/atom-eclipse-syntax#readme",
+  "keywords": [
+    "syntax",
+    "theme"
+  ],
+  "license": "MIT",
+  "name": "atom-eclipse-syntax",
+  "optionalDependencies": {},
+  "readme": "# atom-eclipse-syntax\nEclipse's default syntax theme for Atom.\n\nThis syntax has been made for Java.\n\n![Imgur](https://i.imgur.com/qVGd4e1.png)\n> The font used in this screenshots is [Hack](http://sourcefoundry.org/hack/).\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Niishi/atom-eclipse-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "0.0.6"
+}

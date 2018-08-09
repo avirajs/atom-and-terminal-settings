@@ -1,0 +1,1 @@
+{"context-menu":{"atom-text-editor":[{"label":"Toggle slack-chat","command":"slack-chat:toggle"}]},"menu":[{"label":"Packages","submenu":[{"label":"slack-chat","submenu":[{"label":"Toggle","command":"slack-chat:toggle"}]}]}]}

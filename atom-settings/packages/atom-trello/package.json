@@ -1,0 +1,70 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-118618-15312-1bu2x76.t96mo39pb9/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-118618-15312-1bu2x76.t96mo39pb9/package.tgz",
+        "spec": "/tmp/d-118618-15312-1bu2x76.t96mo39pb9/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-118618-15312-gg3ivw.usttltbj4i"
+    ]
+  ],
+  "_from": "../d-118618-15312-1bu2x76.t96mo39pb9/package.tgz",
+  "_id": "atom-trello@0.7.1",
+  "_inCache": true,
+  "_location": "/atom-trello",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/d-118618-15312-1bu2x76.t96mo39pb9/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/d-118618-15312-1bu2x76.t96mo39pb9/package.tgz",
+    "spec": "/tmp/d-118618-15312-1bu2x76.t96mo39pb9/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-118618-15312-1bu2x76.t96mo39pb9/package.tgz",
+  "_shasum": "b308f1debda97f7dbfe4ff927034b517c539aea0",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/d-118618-15312-1bu2x76.t96mo39pb9/package.tgz",
+  "_where": "/tmp/apm-install-dir-118618-15312-gg3ivw.usttltbj4i",
+  "bugs": {
+    "url": "https://github.com/sgengler/atom-trello/issues"
+  },
+  "dependencies": {
+    "atom-space-pen-views": "~2.1.0",
+    "html-entities": "latest",
+    "marked": "latest",
+    "node-trello": "latest",
+    "oauth": "latest",
+    "pygmentize-bundled": "latest",
+    "space-pen": "~5.1"
+  },
+  "description": "View Trello Boards, Swim Lanes, and Cards from within Atom",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/sgengler/atom-trello#readme",
+  "keywords": [
+    "trello"
+  ],
+  "license": "MIT",
+  "main": "./lib/atom-trello",
+  "name": "atom-trello",
+  "optionalDependencies": {},
+  "readme": "# atom-trello package\n\nView Trello Boards, Swim Lanes, and Cards from within Atom.\n\n![A screenshot of your package](https://cloud.githubusercontent.com/assets/3884266/11539982/17a1b71c-98f8-11e5-95ba-1a13639b1190.png)\n\n## Installation\n\n#### Command Line:\n```\napm install atom-trello\n```\n\n#### In Atom\n`Preferences > Install` and search for `atom-trello` and click install.\n\n## Setup\n1. After installation, go to atom-trello `Settings`\n2. Follow link for key generation, or go here: https://trello.com/1/appKey/generate (you may need to login to Trello if not already logged in)\n3. Copy your key and paste into Trello Developer Key input in atom-trello settings.\n4. You will be redirected to a browser page containing your Trello token. Copy and paste this into the Token input.\n5. You should receive a message if the package successfully connected to Trello.\n\n## Activate\n- `Packages > Trello > toggle`\n- `ctrl-alt-x`\n- right-click and select `Trello View`.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sgengler/atom-trello.git"
+  },
+  "version": "0.7.1"
+}

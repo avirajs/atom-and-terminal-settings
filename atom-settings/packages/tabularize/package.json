@@ -1,0 +1,67 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-118618-12562-1kcminn.rw0q060f6r/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-118618-12562-1kcminn.rw0q060f6r/package.tgz",
+        "spec": "/tmp/d-118618-12562-1kcminn.rw0q060f6r/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-118618-12562-16y3n95.o88vsd1jor"
+    ]
+  ],
+  "_from": "../d-118618-12562-1kcminn.rw0q060f6r/package.tgz",
+  "_id": "tabularize@0.2.5",
+  "_inCache": true,
+  "_location": "/tabularize",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/d-118618-12562-1kcminn.rw0q060f6r/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/d-118618-12562-1kcminn.rw0q060f6r/package.tgz",
+    "spec": "/tmp/d-118618-12562-1kcminn.rw0q060f6r/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-118618-12562-1kcminn.rw0q060f6r/package.tgz",
+  "_shasum": "a3fd34ad54daa225645b8efe7ea590f25dd20f6f",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/d-118618-12562-1kcminn.rw0q060f6r/package.tgz",
+  "_where": "/tmp/apm-install-dir-118618-12562-16y3n95.o88vsd1jor",
+  "activationCommands": {
+    "atom-text-editor": [
+      "tabularize:toggle"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/pcasaretto/atom-tabularize/issues"
+  },
+  "dependencies": {
+    "atom-space-pen-views": "^2.0.0",
+    "underscore": "1.x"
+  },
+  "description": "Atom package for text alignment",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/pcasaretto/atom-tabularize#readme",
+  "license": "MIT",
+  "main": "./lib/tabularize-view",
+  "name": "tabularize",
+  "optionalDependencies": {},
+  "readme": "# tabularize package\n\nAtom package for text alignment.\n\nI missed [Tabular for vim](https://github.com/godlygeek/tabular)\nso this is my shot at recreating it.\n\n![animated-2014-06-08_20h-36m-38s](https://cloud.githubusercontent.com/assets/817039/3212581/ce8a5d32-ef65-11e3-910d-62a3eea16ff0.gif)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pcasaretto/atom-tabularize.git"
+  },
+  "version": "0.2.5"
+}

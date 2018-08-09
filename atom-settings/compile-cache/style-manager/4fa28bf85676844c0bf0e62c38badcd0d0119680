@@ -1,0 +1,1 @@
+{"source":".api-docs-icon {\n  width: 16px;\n  height: 16px;\n  margin-right: 5px;\n}\n.api-docs-doc {\n  overflow: auto;\n}\ncode {\n  background: inherit !important;\n}\n.api-docs-doc code {\n  text-shadow: none;\n}\n"}

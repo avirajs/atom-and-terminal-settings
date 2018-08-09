@@ -1,0 +1,28 @@
+"*":
+  "activate-power-mode":
+    plugins:
+      playAudio: true
+      screenShake: true
+  "api-docs":
+    "rails~5":
+      "0": true
+    "ruby~2":
+      "3": true
+  core:
+    disabledPackages: [
+      "platformio-ide-terminal"
+    ]
+    themes: [
+      "one-light-ui"
+      "kary-foundation-light"
+    ]
+  editor:
+    fontSize: 15
+    invisibles: {}
+    showInvisibles: true
+  "exception-reporting":
+    userId: "5d9e2dea-bfe3-4765-9884-3b3dc21cf64a"
+  minimap:
+    plugins:
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
