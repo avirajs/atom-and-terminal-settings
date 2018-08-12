@@ -54,30 +54,25 @@ export SCM_CHECK=true
 # Load Bash It
 source "$BASH_IT"/bash_it.sh
 
-
-[[ -s /home/avirajs/.autojump/etc/profile.d/autojump.sh ]] && source /home/avirajs/.autojump/etc/profile.d/autojump.sh
-
+#History- increase size, always store, and share with multiple terminals
 export HISTSIZE=100000 # big big history
 export HISTFILESIZE=100000 # big big history
-
-# Avoid duplicates
-export HISTCONTROL=ignoredups:erasedups
+export HISTCONTROL=ignoredups:erasedups # Avoid duplicates
 # When the shell exits, append to the history file instead of overwriting it
 shopt -s histappend
-
 # After each command, append to the history file and reread it
 export PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND$'\n'}history -a; history -c; history -r"
 
-alias osm="cd ~/Desktop/Development/osm"
-alias develop="cd /home/avirajs/Desktop/Development"
-
+#navigation shortcuts
+alias o=xdg-open
+alias develop="cd /home/aviraj/Development"
+#command shortcuts
 alias add-alias="atom ~/.bashrc"
 alias refresh-alias="source ~/.bashrc"
-
 alias histg="history | grep"
 alias bashrcg="alias | grep"
 alias rhistg="cat ~/.pry_history | grep"
-
+#git shortcuts
 alias gad="git add"
 alias gre="git reset"
 alias gco="git commit"
